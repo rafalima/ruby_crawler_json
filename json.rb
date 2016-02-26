@@ -33,6 +33,7 @@ end
 # the link is used for file creation. It will use the link from this value until the end of the link
 @file_creation_stopper = 'api'
 
+# link to look for the @key_to_find
 link = "URL "
 
 find(JSON.parse(open(link).read))
